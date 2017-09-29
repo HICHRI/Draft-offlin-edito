@@ -1,0 +1,25 @@
+
+<html>
+<meta charset="utf-8" />
+<head>
+    <title>M G Test-</title>
+</head>
+<link rel="stylesheet" href="Draft.css"/>
+<link rel="stylesheet" href="plugin.css"/>
+<link rel="stylesheet" href="style.css"/>
+<body>
+<div id="text-edit-root">
+</div>
+<script>
+    document.addEventListener("message", function(data) {
+        alert(data.data);
+    });
+
+    //setInterval(function () {
+    //postMessage("Sending data from WebView", "*");
+    //}, 3000);
+</script>
+</body>
+<script src="bundle.js"></script>
+
+</html>
